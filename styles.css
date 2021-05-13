@@ -32,24 +32,81 @@
     font-size: 40px;
 }
 
-/* masthead */
+/* intro */
 
-.masthead {
-    padding: 40px;
+.intro {
+    padding: 40px 250px;
+    display: flex;
+    align-items: center;
 }
 
-.masthead-image {
+.intro-image {
     height: auto;
-    width: 700px;
-    margin-bottom: 10px;
+    width: 400px;
+    margin-right: 40px;
 }
 
-.button {
-    margin-top: 10px;
-    padding: 10px 7.5px;
+
+.intro .header {
+    font-size: 48px;
 }
 
-.button-link {
-    text-decoration: none;
-    font-size: 16px;
+.intro .paragraph {
+    font-size: 24px;
 }
+
+/* intro extended */
+
+.intro-extended {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 40px 250px;
+}
+
+.extended-image {
+    margin-left: 40px;
+}
+
+.intro-extended .header {
+    font-size: 48px;
+}
+
+.intro-extended .paragraph {
+    font-size: 24px;
+}
+
+/* history */
+
+.history {
+    padding: 40px 250px;
+}
+
+.history .header {
+    font-size: 32px;
+}
+
+.history p {
+    font-size: 24px;
+}
+
+.timeline-wrapper {
+    margin-top: 20px;
+    display: flex;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+
