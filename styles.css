@@ -4,10 +4,14 @@
 
 */
 
-/* :root {
-
-
-} */
+:root {
+    /* color palette */
+    --palewood: #fefae0;
+    --cutwood: #faedcd;
+    --grayish: #e9edc9;
+    --gray: #ccd5ae;
+    --wood: #d4a373;
+}
 
 * {
     box-sizing: border-box;
@@ -26,6 +30,7 @@
     align-items: center;
     padding: 20px;
     padding-left: 40px;
+    background-color: var(--palewood);
 }
 
 .nav .logo {
@@ -38,6 +43,7 @@
     padding: 40px 250px;
     display: flex;
     align-items: center;
+    background-color: var(--cutwood);
 }
 
 .intro-image {
@@ -62,6 +68,7 @@
     flex-direction: row-reverse;
     align-items: center;
     padding: 40px 250px;
+    background-color: var(--palewood);
 }
 
 .extended-image {
@@ -80,6 +87,7 @@
 
 .history {
     padding: 40px 250px;
+    background-color: var(--cutwood);
 }
 
 .history .header {
